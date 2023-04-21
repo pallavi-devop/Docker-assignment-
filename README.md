@@ -3,7 +3,8 @@
 
 <b>Step 1 :</b>
 
-Create Docker Environment On Operating System, i used Ubantu hear 
+Create Docker Environment On Operating System. 
+I used Ubantu  
 
 Requirements Check:
 - Check Kernel version
@@ -41,7 +42,7 @@ Installation Steps:
 
 <b>Step 2</b>
 
-Create Dockerhub account, use this link
+Create  a DockerHub account, Use this link
 
 <link>https://hub.docker.com</link>
 
@@ -61,7 +62,7 @@ enter into repository
 
 <b>step 4</b>
 
-create DockerFile 
+Create DockerFile 
 
 $vim Dockerfile 
 
@@ -82,8 +83,8 @@ ENTRYPOINT service nginx start && bash
 
 </div>
 
-<h5>after this customise your nginx default page with your customised page 
-by editing in the index.html file </h5>
+<h5>After this, customise your nginx default page with your customised page 
+by editing the index.html file </h5>
 
 
 <b>Step 5 </b>
@@ -107,5 +108,5 @@ Go To Your Browser Type
 
  <h2>Hostname:port</h2>
 
- in my case 127.0.0.0:80 
+In my case, 127.0.0.0:80 
 ~        
