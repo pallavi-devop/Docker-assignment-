@@ -84,12 +84,17 @@ ENTRYPOINT service nginx start && bash
 <h5>after this customise your nginx default page with your customised page 
 by editing in the index.html file </h5>
 
-<div>
 
-<html>
-<h1>Hello Welcome To Nginx world</h1>
- </body> 
-</html>
+<b>Step 5 </b>
+#Build Image Using Command 
+$docker build -t "dockerhub-username/image-name" .
 
-~    <div>                                                                           
+#Run Docker Image USing 
+$docker run -it --name container-name imagename /bin/bash                                                                          
+<b> Step 6</b>
+
+Check Images using 
+$Docker images 
+
+
 ~        
