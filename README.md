@@ -86,15 +86,28 @@ by editing in the index.html file </h5>
 
 
 <b>Step 5 </b>
-#Build Image Using Command 
+# Build Image Using Command 
 $docker build -t "dockerhub-username/image-name" .
 
-#Run Docker Image USing 
+# Check Images Using 
+$Docker images
+
+# Run Docker Image Using 
 $docker run -it --name container-name imagename /bin/bash                                                                          
-<b> Step 6</b>
 
-Check Images using 
-$Docker images 
+# In this check hostname 
+$hostname -i
 
+Copy Hostname
+
+<b>Step 7</b>
+
+Go To User Browser 
+
+type Hostname:port
+
+ in my case 127.0.0.0:80 
+
+<b> default port of nginx in 80 that's why 80 </b>
 
 ~        
