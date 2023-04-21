@@ -17,7 +17,7 @@ NOTE: Kernel can also be upgraded.
 
 
 Installation Steps:
-===========	==========	
+=======================================================	
 # Update apt-get cache
 	$ sudo apt-get update
 
@@ -37,26 +37,27 @@ Installation Steps:
 	$ sudo apt-get install docker-ce
 
 #Installation Check
-sudo docker --version
+	$sudo docker --version
 
 <b>Step 2</b>
 
 Create Dockerhub account, use this link
+
 <link>https://hub.docker.com</link>
 
 Create github account 
 
-<link>https://github.com</link
+<link>https://github.com</link>
 
 <b>step 3</b>
-<h3> this is we will perform in terminal </h3>
+<h3> This step we will perform in terminal </h3>
 Create Repository in GitHub and clone it on ubantu envirement by using this cmd 
 
-$git clone repourl
+	$git clone repourl
 
 enter into repository 
 
-$cd directory-name
+	$cd directory-name
 
 <b>step 4</b>
 
@@ -71,7 +72,7 @@ On This DockerFile Write this
 FROM nginx
 
 # update lib
-RUN apt-get update && apt-get upgrade -y
+$RUN apt-get update && apt-get upgrade -y
 
 # Copy the Nginx config
 COPY index.html /usr/share/nginx/html
@@ -87,27 +88,24 @@ by editing in the index.html file </h5>
 
 <b>Step 5 </b>
 # Build Image Using Command 
-$docker build -t "dockerhub-username/image-name" .
+	$docker build -t "dockerhub-username/image-name" .
 
 # Check Images Using 
-$Docker images
+	$Docker images
 
 # Run Docker Image Using 
-$docker run -it --name container-name imagename /bin/bash                                                                          
+	$docker run -it --name container-name imagename /bin/bash                                                                          
 
 # In this check hostname 
-$hostname -i
+	$hostname -i
 
 Copy Hostname
 
 <b>Step 7</b>
 
-Go To User Browser 
+Go To Your Browser Type 
 
-type Hostname:port
+ <h2>Hostname:port</h2>
 
  in my case 127.0.0.0:80 
-
-<b> default port of nginx in 80 that's why 80 </b>
-
 ~        
