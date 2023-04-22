@@ -77,7 +77,7 @@ On This DockerFile Write this
 
 <div>
 	#Pull the minimal Ubuntu image
-	#FROM nginx
+	$FROM nginx
 
 	#update lib
 	$RUN apt-get update && apt-get upgrade -y
