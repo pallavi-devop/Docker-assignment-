@@ -110,24 +110,24 @@ Copy Hostname
 
 <b>Step 7</b>
 
-Go To Your Browser Type 
+<h2>Go To Your Browser Type </h2>
 
  <h2>Hostname:port</h2>
 
 In my case, 127.0.0.0:80 
 
-#exit
+	#exit
 # To Push Images In The DockerHub
 
-#sudo docker push image-name
+	#sudo docker push image-name
 
 # To Push All Files In GitHub
 
-#git add .
+	#git add .
 
-#git commit -m "commit massage"
+	#git commit -m "commit massage"
 
-#git push 
+	#git push 
 
 
 
