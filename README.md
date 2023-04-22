@@ -8,6 +8,7 @@ I used Ubantu
 
 Requirements Check:
 - Check Kernel version
+- 
 	$ uname -a Or -r
 
 NOTE: Kernel can also be upgraded.
@@ -75,17 +76,17 @@ $vim Dockerfile
 On This DockerFile Write this 
 
 <div>
-Pull the minimal Ubuntu image
-FROM nginx
+	#Pull the minimal Ubuntu image
+	#FROM nginx
 
-update lib
-$RUN apt-get update && apt-get upgrade -y
+	#update lib
+	$RUN apt-get update && apt-get upgrade -y
 
-Copy the Nginx config
-COPY index.html /usr/share/nginx/html
+ 	#Copy the Nginx config
+	COPY index.html /usr/share/nginx/html
 
-Run the Nginx server
-ENTRYPOINT service nginx start && bash
+	Run the Nginx server
+	ENTRYPOINT service nginx start && bash
 
 </div>
 
