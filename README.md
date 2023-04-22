@@ -76,6 +76,7 @@ $vim Dockerfile
 On This DockerFile Write this 
 
 <div>
+	
 	#Pull the minimal Ubuntu image
 	FROM nginx
 
