@@ -75,16 +75,16 @@ $vim Dockerfile
 On This DockerFile Write this 
 
 <div>
-# Pull the minimal Ubuntu image
+Pull the minimal Ubuntu image
 FROM nginx
 
-# update lib
+update lib
 $RUN apt-get update && apt-get upgrade -y
 
-# Copy the Nginx config
+Copy the Nginx config
 COPY index.html /usr/share/nginx/html
 
-# Run the Nginx server
+Run the Nginx server
 ENTRYPOINT service nginx start && bash
 
 </div>
