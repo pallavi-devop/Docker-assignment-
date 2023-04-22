@@ -46,6 +46,12 @@ Create  a DockerHub account, Use this link
 
 <link>https://hub.docker.com</link>
 
+Login To DockerHub, In Terminal 
+$login Dockerhub
+
+Enter Username:
+Enter Password:
+
 Create github account 
 
 <link>https://github.com</link>
