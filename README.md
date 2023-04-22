@@ -104,7 +104,7 @@ by editing the index.html file </h5>
 	$docker run -it --name container-name imagename /bin/bash                                                                          
 
 # In this check hostname 
-	$hostname -i
+	#hostname -i
 
 Copy Hostname
 
@@ -115,4 +115,23 @@ Go To Your Browser Type
  <h2>Hostname:port</h2>
 
 In my case, 127.0.0.0:80 
+
+#exit
+# To Push Images In The DockerHub
+
+#sudo docker push image-name
+
+# To Push All Files In GitHub
+
+#git add .
+
+#git commit -m "commit massage"
+
+#git push 
+
+
+
+
+
+
 ~        
